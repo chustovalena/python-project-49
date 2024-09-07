@@ -23,12 +23,12 @@ def res():
 
 for i in range(0, 3):
 	number1, correct_answer1 = res()
-	print(f'Question: {number}')
+	print(f'Question: {number1}')
 	user_answer = input()
-	if user_answer == correct_answer:
+	if user_answer == correct_answer1:
 		print('Correct!')
 	else:
-		print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+		print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer1}'.")
 		print(f"Let's try again, {name}!")
 		break
 	if i == 2:
