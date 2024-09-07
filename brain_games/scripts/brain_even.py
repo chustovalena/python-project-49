@@ -4,9 +4,9 @@ import prompt
 
 welcome_string = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def is_even(random_number):
-    return random_number % 2 == 0
-    
+    return random_number % 2 == 0 
 
 
 print('Welcome to the Brain Games!')
@@ -14,8 +14,9 @@ name = prompt.string('May I have your name? ')
 print(f'Hello, {name}!')
 print(welcome_string)
 
+
 def game_even():
-	for i in range(0,3):
+	for i in range(0, 3):
 		number = random.randint(0, 99)
 		correct_answer = "yes" if is_even(number) else "no"
 		print(f'Question: {number}')
@@ -29,8 +30,5 @@ def game_even():
 		if i == 2:
 			print(f'Congratulations, {name}!')
 
+
 game_even()
-
-
-
-
