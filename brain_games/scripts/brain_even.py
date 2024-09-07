@@ -15,10 +15,16 @@ print(f'Hello, {name}!')
 print(welcome_string)
 
 
+def res():
+	number = random.randint(0, 99)
+	correct_answer = "yes" if is_even(number) else "no"
+	return number, correct_answer
+
+
+
 def game_even():
 	for i in range(0, 3):
-		number = random.randint(0, 99)
-		correct_answer = "yes" if is_even(number) else "no"
+		number1, correct_answer1 = res()
 		print(f'Question: {number}')
 		user_answer = input()
 		if user_answer == correct_answer:
