@@ -5,4 +5,4 @@
 
 ### Игры
 
-[Проверка на чётность](https://doka.guide)
+[Проверка на чётность](https://asciinema.org/a/hLIojLEPqjSCKLwB7B0WUs9At)
