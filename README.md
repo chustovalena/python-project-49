@@ -10,3 +10,5 @@
 [Калькулятор](https://asciinema.org/a/n84HTOJ6rMVfzb3QPmBxj1XWm)
 
 [НОД](https://asciinema.org/a/k3lh1s0RFiuKY8TUcLn8wI3MK)
+
+[Арифметическая прогрессия](https://asciinema.org/a/YgzkEmsEIKqnUdh0qos7uyWpC)
