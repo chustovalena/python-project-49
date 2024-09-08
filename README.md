@@ -7,4 +7,4 @@
 
 [Проверка на чётность](https://asciinema.org/a/hLIojLEPqjSCKLwB7B0WUs9At)
 
-[Калькулятор]](https://asciinema.org/a/n84HTOJ6rMVfzb3QPmBxj1XWm)
+[Калькулятор](https://asciinema.org/a/n84HTOJ6rMVfzb3QPmBxj1XWm)
