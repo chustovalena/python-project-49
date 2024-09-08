@@ -1,8 +1,8 @@
-from brain_games.games import even
+from brain_games.games import prime
 
 
 def main():
-    even.go()
+    prime.go()
 
 
 if __name__ == "__name__":
