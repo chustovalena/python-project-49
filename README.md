@@ -12,3 +12,5 @@
 [НОД](https://asciinema.org/a/k3lh1s0RFiuKY8TUcLn8wI3MK)
 
 [Арифметическая прогрессия](https://asciinema.org/a/YgzkEmsEIKqnUdh0qos7uyWpC)
+
+[Простое ли число?](https://asciinema.org/a/1IdIpQzCsU1c49jDxMBRX2sOE)
