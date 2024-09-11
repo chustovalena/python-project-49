@@ -3,6 +3,11 @@
 
 <a href="https://codeclimate.com/github/chustovalena/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/977cbca820f61b731cad/maintainability" /></a>
 
+
+#### Установить пакет можно командой:
+#### pip install -i https://test.pypi.org/simple/ el724ena5-brain-games
+
+
 ### Игры
 
 [Проверка на чётность](https://asciinema.org/a/1v06V6AD9Db16cYWgyfCsunjf)
