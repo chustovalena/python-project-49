@@ -5,12 +5,12 @@
 
 ### Игры
 
-[Проверка на чётность](https://asciinema.org/a/hLIojLEPqjSCKLwB7B0WUs9At)
+[Проверка на чётность](https://asciinema.org/a/1v06V6AD9Db16cYWgyfCsunjf)
 
-[Калькулятор](https://asciinema.org/a/n84HTOJ6rMVfzb3QPmBxj1XWm)
+[Калькулятор](https://asciinema.org/a/RiTmxLLaUgLtIxhI5lhxC3ZxT)
 
-[НОД](https://asciinema.org/a/k3lh1s0RFiuKY8TUcLn8wI3MK)
+[НОД](https://asciinema.org/a/eBZ6nxpRfOWNRgm5QXKdXBMgV)
 
-[Арифметическая прогрессия](https://asciinema.org/a/YgzkEmsEIKqnUdh0qos7uyWpC)
+[Арифметическая прогрессия](https://asciinema.org/a/gZDsRi4z0NMSdZkWW5yumKQA2)
 
-[Простое ли число?](https://asciinema.org/a/1IdIpQzCsU1c49jDxMBRX2sOE)
+[Простое ли число?](https://asciinema.org/a/iUzHZ6HjjHdXDdUjIAIJxKWLY)
