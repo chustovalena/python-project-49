@@ -5,7 +5,7 @@
 
 
 #### Установить пакет можно командой:
-#### pip install -i https://test.pypi.org/simple/ el724ena5-brain-games
+    pip install -i https://test.pypi.org/simple/ el724ena5-brain-games
 
 
 ### Игры
