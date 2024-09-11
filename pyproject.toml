@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "el724ena5_brain_games"
-version = "0.1.1"
+version = "0.1.0"
 description = "a few games"
 authors = ["Chustova Elena <chustova.lena@gmail.com>"]
 readme = "README.md"
