@@ -1,8 +1,7 @@
 import random
-from brain_games.invitation import invite_str
 
 
-welcome_string = 'What is the result of the expression?'
+WELCOME_STRING = 'What is the result of the expression?'
 
 
 def random_operation():
@@ -28,7 +27,3 @@ def game():
     question = f'Question: {first_number} {current_oper} {second_number}'
     result = operations(first_number, second_number, current_oper)
     return question, str(result)
-
-
-def go():
-    invite_str(game, welcome_string)

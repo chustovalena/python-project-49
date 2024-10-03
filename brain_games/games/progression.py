@@ -1,8 +1,7 @@
 import random
-from brain_games.invitation import invite_str
 
 
-welcome_string = 'What number is missing in the progression?'
+WELCOME_STRING = 'What number is missing in the progression?'
 
 
 def oper_progression(start_prog, step_prog):
@@ -22,7 +21,3 @@ def game():
     prog, result = oper_progression(start_prog, step_prog)
     question = f'Question: {prog}'
     return question, str(result)
-
-
-def go():
-    invite_str(game, welcome_string)
