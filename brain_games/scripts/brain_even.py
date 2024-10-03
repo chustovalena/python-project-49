@@ -1,8 +1,9 @@
 from brain_games.games import even
+from brain_games.engine import engine_func
 
 
 def main():
-    even.go()
+    engine_func(even)
 
 
 if __name__ == "__name__":

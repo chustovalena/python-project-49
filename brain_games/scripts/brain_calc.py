@@ -1,8 +1,9 @@
 from brain_games.games import calc
+from brain_games.engine import engine_func
 
 
 def main():
-    calc.go()
+    engine_func(calc)
 
 
 if __name__ == "__name__":
