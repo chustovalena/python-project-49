@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "el724ena5_brain_games"
+name = "hexlet-code"
 version = "0.1.1"
 description = "a few games"
 authors = ["Chustova Elena <chustova.lena@gmail.com>"]
