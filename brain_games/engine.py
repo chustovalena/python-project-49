@@ -4,24 +4,25 @@ import prompt
 ROUNDS = 3
 
 
-def invite_str():
+def greet_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     return name
 
 
-def engine_func(game):
-    name = invite_str()
+def game_engine(game):
+    name = greet_user()
     print(game.WELCOME_STRING)
     for _ in range(ROUNDS):
         question, res = game.game()
-        print(question)
+        print('Question: '+question)
         user = input()
         print(f'Your answer: {user}')
-        if user != res:
-            return print(f'"{user}" is wrong answer ;(.'
-                         f' Correct answer was "{res}".'
-                         f'\nLet\'s try again, {name}!')
+        if user != str(res):
+            print(f'"{user}" is wrong answer ;(.'
+                f' Correct answer was "{res}".'
+                f'\nLet\'s try again, {name}!')
+            return
         print('Correct!')
-    return print(f'Congratulations, {name}!')
+    print(f'Congratulations, {name}!')
