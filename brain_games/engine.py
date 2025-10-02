@@ -1,6 +1,5 @@
 import prompt
 
-
 ROUNDS = 3
 
 
@@ -16,13 +15,13 @@ def game_engine(game):
     print(game.WELCOME_STRING)
     for _ in range(ROUNDS):
         question, res = game.game()
-        print('Question: '+question)
+        print('Question: ' + question)
         user = input()
         print(f'Your answer: {user}')
         if user != str(res):
             print(f'"{user}" is wrong answer ;(.'
-                f' Correct answer was "{res}".'
-                f'\nLet\'s try again, {name}!')
+                  f' Correct answer was "{res}".'
+                  f'\nLet\'s try again, {name}!')
             return
         print('Correct!')
     print(f'Congratulations, {name}!')
