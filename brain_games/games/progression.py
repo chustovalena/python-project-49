@@ -5,6 +5,7 @@ WELCOME_STRING = 'What number is missing in the progression?'
 
 
 def oper_progression(start_prog, step_prog):
+    """Return progression with a one random missing number and that number"""
     res_prog = []
     for i in range(10):
         res_prog.append(start_prog + i * step_prog)
@@ -19,5 +20,5 @@ def game():
     start_prog = random.randint(1, 9)
     step_prog = random.randint(1, 9)
     prog, result = oper_progression(start_prog, step_prog)
-    question = f'Question: {prog}'
-    return question, str(result)
+    question = f'{prog}'
+    return question, result
